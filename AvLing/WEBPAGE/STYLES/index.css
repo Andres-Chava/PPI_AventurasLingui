@@ -1,0 +1,43 @@
+.Bienvenida {
+    margin-top: 5vh;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 50vh;
+    width: 50vw;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    box-shadow: 0 0 30px 3px rgba(0, 0, 0, 0.5);
+    padding: 0 3vw 0 3vw;
+    border-radius: 20px;
+    background-color: #9393e2;
+    color: white;
+}
+
+.TextBienvenida {
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+.BotonBienvenida {
+    background-color: #00e600;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-family: "Faculty Glyphic", sans-serif;
+}
+
+.BotonBienvenida:hover {
+    background-color: #00cc00;
+    transform: scale(1.05);
+}

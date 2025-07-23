@@ -1,0 +1,96 @@
+.Titulo {
+    margin: 15px 0px 15px 0px;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    font-family: "Milanello";
+    color: #35FA35;
+}
+
+.ContCont {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.TarjetaImagen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 60vh;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.ImagenVideo {
+    width: 300px;
+    height: 200px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.ImagenInfo {
+    width: 300px;
+    height: 280px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.EspacioSeccion {
+    width: 300px;
+    height: 50px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    align-items: center;
+    text-align: center;
+    background-color: #4c14ac;
+    font-weight: 600;
+    color: white;
+    border-top: 2px solid #35FA35;
+}
+
+.TextoSeccion {
+    font-family: "Faculty Glyphic", sans-serif;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.DivCont {
+    box-shadow: 0 0 30px 3px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+    border: 2px solid #35FA35;
+}
+
+.DivCont:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.BotonRegresar {
+    position: fixed;
+    width: 51px;
+    height: 51px;
+    background-color: #35FA35;
+    border-radius: 100%;
+    top: 90vh;
+    left: 93vw;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.BotonRegresar:hover {
+    background-color: #2BDB2B;
+    transform: scale(1.1);
+}
+  
+.IconoRegresar {
+   width: 45px;
+   height: 45px;
+   margin-top: 3px;
+   margin-left: 3px;
+   border-radius: 100%;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aventuras Lingüi</title>
+    <link href="../STYLES/modulos1.css" rel="stylesheet">
+    <script src="../JS/modulos.js"></script>
+    <link href="../IMAGENES/Icono.png" rel="icon">
+    <link rel="stylesheet" href="../STYLES/universal.css">
+</head>
+<body>
+    <header class="Header">
+        <img src="../IMAGENES/Logo.jpeg" class="Logo">
+        <p class="TituloHeader">- AVENTURAS LINGÜI -</p>
+    </header>
+    <div class="PrimerT">
+        <div class="Modulos Modulo1" onclick="irAPagina('../HTML/MODULOS/cc.html')">
+            <div class="TarjetaImagen"><img src="../IMAGENES/CC.png" class="ImagenModulo"></div>
+            <div class="EspacioModulo">
+                <p class="TextoModulo">El uso de la "doble C"</p>
+            </div>
+        </div>
+        <div class="Modulos Modulo2" onclick="irAPagina('../HTML/MODULOS/sxc.html')">
+            <div class="TarjetaImagen"><img src="../IMAGENES/SXC.png" class="ImagenModulo"></div>
+            <div class="EspacioModulo">
+                <p class="TextoModulo">La "S", "X" y la "C"</p>
+            </div>
+        </div>
+        <div class="Modulos Modulo3" onclick="irAPagina('../HTML/MODULOS/mpb.html')">
+            <div class="TarjetaImagen"><img src="../IMAGENES/MPB.png" class="ImagenModulo"></div>
+            <div class="EspacioModulo">
+                <p class="TextoModulo">El uso de la "M" antes de "P" y "B"</p>
+            </div>
+        </div>
+    </div>
+    <div class="SegundoT">
+        <div class="Modulos Modulo4" onclick="irAPagina('../HTML/MODULOS/rr.html')">
+            <div class="TarjetaImagen"><img src="../IMAGENES/RR.png" class="ImagenModulo"></div>
+            <div class="EspacioModulo">
+                <p class="TextoModulo">El uso de la "R" y la "doble R"</p>
+            </div>
+        </div>
+        <div class="Modulos Modulo5" onclick="irAPagina('../HTML/MODULOS/mayus.html')">
+            <div class="TarjetaImagen"><img src="../IMAGENES/MAYUS.png" class="ImagenModulo"></div>
+            <div class="EspacioModulo">
+                <p class="TextoModulo">El uso de las máyusculas</p>
+            </div>
+        </div>
+        <div class="Modulos Modulo6" onclick="irAPagina('../HTML/MODULOS/bv.html')">
+            <div class="TarjetaImagen"><img src="../IMAGENES/BV.png" class="ImagenModulo"></div>
+            <div class="EspacioModulo">
+                <p class="TextoModulo">El uso de "B" y "V"</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="Navegacion">
+        <div class="Volver NavBox"><img src="../IMAGENES/Volver.png" class="ImagenVolver"></div>
+        <div class="N1 NavBox"><p class="TextoN1">1</p></div>
+        <div class="N2 NavBox" onclick="irAPagina('modulos2.html')"><p class="TextoN2">2</p></div>
+        <div class="Adelante NavBox" onclick="irAPagina('modulos2.html')"><img src="../IMAGENES/Adelante.png" class="ImagenAdelante"></div>
+    </div>
+
+    <div class="BotonRegresar" onclick="irAPagina('estdoc.html')">
+        <img src="../IMAGENES/Regresar.png" class="IconoRegresar">
+    </div>
+
+    <footer class="Footer">
+        <div class="CFooter">
+            <p>© 2025 AventurasLingüi. Todos los derechos reservados.</p>
+            <p>"El conocimiento es el primer paso hacia el cambio."</p>
+            <b><a href="../../PITCH/index.html">Acerca de</a></b>
+            <b><p>En articulación con:</p></b>
+            <div class="Articulacion">
+                <div class="Nieves" onclick="paginaBlank('https://ielasnieves.edu.co/')">
+                    <p class="TextoNieves">Institución Educativa Las Nieves</p>
+                    <img src="../IMAGENES/Nieves.png" class="FotoNieves">
+                </div>
+                <div class="Poli" onclick="paginaBlank('https://www.politecnicojic.edu.co/')">
+                    <p class="TextoPoli">Politecnico Colombiano Jaime Isaza Cadavid</p>
+                    <img src="../IMAGENES/Poli.png" class="FotoPoli">
+                </div>
+            </div>
+        </div>
+    </footer>
+      
+</body>
+</html>

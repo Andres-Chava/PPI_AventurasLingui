@@ -1,0 +1,70 @@
+.Estudiante {
+    width: 50vw;
+    height: 100vh;
+}
+
+.Estudiante:hover {
+    background-color: #E0E0E0;
+    cursor: pointer;
+}
+
+.Global {
+    display: flex;
+    flex-direction: row;
+}
+
+.Docente {
+    width: 50vw;
+    height: 100vh;
+    background: #4c14ac;
+}
+
+.Docente:hover {
+    background-color: #3F108F;
+    cursor: pointer;
+}
+
+.ContenedorDocente {
+    display: flex;
+    font-family: "Faculty Glyphic", sans-serif;
+    font-weight: 600;
+    font-size: 80px;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    width: 70%;
+    margin-top: 35vh;
+    margin-left: 8vw;
+    flex-direction: column;
+}
+
+.ContenedorEstudiante {
+    display: flex;
+    font-weight: 600;
+    font-size: 80px;
+    border-radius: 20px;
+    text-align: center;
+    width: 70%;
+    margin-top: 35vh;
+    flex-direction: column;
+    color: #4c14ac;
+}
+
+.IngComo {
+    font-size: 25px;
+}
+
+.TextoEstudiante {
+    font-family: "Milanello";
+    font-size: 100px;
+    margin-left: 45px;
+}
+
+.TextoDocente {
+    font-family: "Milanello";
+    font-size: 100px;
+}
+
+.Left {
+    margin-left: 170px;
+}

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+@font-face {
+    font-family: 'Bundhers';
+    src: url('../FONTS/bundhers/Bundhers.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Milanello';
+    src: url('../FONTS/milanello/Milanello.otf') format('opentype');
+    src: url('../FONTS/milanello/Milanello.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    animation: animFade 1s ease;
+    font-family: "Faculty Glyphic";
+    scroll-behavior: smooth;
+}
+
+@keyframes animFade {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+}
+
+/* ESTILOS PARA EL HEADER */
+
+.Header {
+    display: flex;
+    background: #4c14ac;
+    width: auto;
+    height: 9vh;
+    padding: 3vh 0vw 3vh 0vw;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.TituloHeader {
+    color: white;
+    font-family: 'Bundhers';
+    font-weight: 800;
+    font-style: normal;
+    font-size: 85px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 15px;
+}
+
+.Logo {
+    border-radius: 100%;
+    width: 85px;
+    height: 85px;
+    float: left;
+    margin: 0 0 0 2vw;
+    padding-top: 0;
+    box-shadow: 0 0 30px 5px rgba(255, 255, 255, 0.5);
+}
+
+/* FIN ESTILOS DEL HEADER */
+
+/* FOOTER */
+
+.Footer {
+    background: #4c14ac;
+    color: white;
+    margin-top: 40px;
+}
+
+.CFooter {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.CFooter a{
+    text-decoration: underline;
+    color: white;
+}
+
+.CFooter a:hover{
+    text-decoration: underline;
+    color: #E0E0E0;
+}
+
+.Articulacion {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    left: 50%;
+    gap: 30px;
+}
+
+.Nieves {
+    width: 50vw;
+    border-right: 1px solid white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.Poli {
+    width: 50vw;
+    display: flex;
+    flex-direction: row-reverse;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.TextoPoli {
+    margin-right: 10vw;
+}
+
+.TextoNieves {
+    margin-left: 10vw;
+}
+
+.FotoNieves {
+    float: right;
+    margin-left: 10vw;
+    width: 70px;
+    height: 70px;
+}
+
+.FotoPoli {
+    float: left;
+    margin-right: 10vw;
+    width: 70px;
+    height: 70px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

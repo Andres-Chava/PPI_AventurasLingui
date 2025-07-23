@@ -6,27 +6,27 @@ A continuación, encontrarás información acerca del proyecto llamado Aventuras
 - Andrés Camilo Chavarriaga Guerrero
 - Manuela Rendón Lopera
 - Sarai Munera Vásquez
+- Sara Liceth Aguirre Aguirre
 
 ## Objetivo general  
-Profundizar en el aprendizaje de ortografía en niños de 3° grado de primaria, con el propósito de abordar las dificultades comunes que enfrentan en este aspecto y promover un dominio efectivo de las reglas ortográficas. Algunos ejemplos de estas reglas ortográficas son: *cc, s, rr, h; m antes de p y b,* etc.
+Implementar la aplicación “Aventuras Lingüi”, para el fortalecimiento del aprendizaje de ortografía en el grado 2° de primaria.
 
 ## Objetivos específicos  
 
--   **Realizar una investigación** sobre el público objetivo, enfocándose en identificar los temas de ortografía que representan desafíos significativos, con el fin de fundamentar el desarrollo de la aplicación.  
+-   **Definir** la estructura básica de la aplicación y el lenguaje de programación.
     
+-   **Diseñar** la metodología a través de la cual se va a instruir los temas que generan mayor dificultad, y cómo se implementará de acuerdo al lenguaje de programación.
 
+-   **Socializar** la aplicación con la institución y los responsables del proceso en el grado 2°
+
+-   **Evaluar** la interacción mediante pruebas con el público objetivo para dimensionar la efectividad de la aplicación web.
   
-
--   **Diseñar y desarrollar una página web educativa** interactiva que incorpore teorías fundamentales de ortografía. La página también proporcionará recursos complementarios como videos y juegos para reforzar el aprendizaje.  
-    
-
-  
-
--   **Implementar evaluaciones formativas** en forma de pequeños cuestionarios al final de cada tema, con el propósito de verificar la comprensión y la aplicación efectiva del conocimiento adquirido por parte de los usuarios.
 ## Alcance
 
-El proyecto estará específicamente dirigido a niños de **tercer grado de primaria**, con un rango de edad de 8-10 años que sepan mínimamente escribir y leer.
-Se ha decidido focalizarse en este nivel escolar, ya que se busca brindar apoyo a los estudiantes en el desarrollo de sus habilidades ortográficas desde una edad temprana, estableciendo bases sólidas para un dominio correcto de la ortografía tanto en el presente como en el futuro. Por esta razón, todos los temas se explicarán de la manera más simple posible para que el público objetivo pueda comprenderlos fácilmente.
+Los resultados de esta propuesta inciden directamente en el desarrollo comunicativo del estudiante. Se busca, en primer lugar, que comprenda la importancia de la ortografía más allá de la memorización de reglas, reconociendo su impacto en la claridad del mensaje. Además, que asuma responsabilidad comunicativa y entienda que escribir correctamente es una forma de respeto hacia el lector.  Y finalmente, que aplique dicho conocimiento de manera intencionada en diversos contextos escritos, como tareas, mensajes o presentaciones.
+
+Considerando los resultados que se esperan alcanzar, este proyecto se orienta hacia los estudiantes del **tercer grado de primaria** de la Institución Educativa Las Nieves. Esto también está fundamentado en el hecho de que es en tal grado en el que los estudiantes comienzan a aprender acerca de la ortografía, por lo que podrían usar este material como apoyo. Es importante mencionar que a estas edades (7 y 8 años) la mente es propensa a generar y almacenar recuerdos, por lo que los conocimientos que adquieran serán más duraderos y significativos.
+
 
 ## Ciclo de vida 
 El proyecto esta en tres partes del ciclo de vida y son: idea, identificación de requisitos y diseño:
@@ -35,7 +35,6 @@ El proyecto esta en tres partes del ciclo de vida y son: idea, identificación d
   
 - ### Identificación de requisitos  
 	Este componente esta en proceso, se tienen definidos algunos requisitos, como:  
-  
 
 	-   Seguir la misma paleta de colores.  
     
